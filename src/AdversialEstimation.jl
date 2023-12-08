@@ -1,7 +1,7 @@
 module AdversialEstimation
-    using Flux, Statistics, Random, Flux: @epochs
+    using Statistics, Random, SimpleChains
 # Write your package code here.
 
-    include("flux_estimation.jl")
+    include("NN.jl")
 
 end
